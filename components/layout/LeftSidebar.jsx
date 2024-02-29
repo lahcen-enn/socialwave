@@ -22,7 +22,7 @@ const LeftSidebar = () => {
   };
   
   useEffect(() => {
-    if (user) { // Check if user object is defined
+    if (user) {
       getUser();
     }
   }, [user]);

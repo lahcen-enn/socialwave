@@ -2,8 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { SignedIn, UserButton, SignOutButton } from "@clerk/nextjs";
-import { useUser } from "@clerk/nextjs";
+import { SignedIn, UserButton, SignOutButton, useUser } from "@clerk/nextjs";
 import { Logout } from "@mui/icons-material";
 import Menu from "./Menu";
 import Loader from "@components/Loader";

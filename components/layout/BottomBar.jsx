@@ -17,7 +17,7 @@ const BottomBar = () => {
             key={link.label}
             href={link.route}
             className={`flex gap-2 items-center rounded-lg py-2 px-4 ${
-              isActive && "bg-purple-1"
+              isActive && "bg-bleu"
             }`}
           >
             {link.icon} <p className="text-small-medium text-light-1 max-sm:hidden">{link.label.split(/\s+/)[0]}</p>

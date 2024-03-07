@@ -4,19 +4,20 @@
 
 /* Clerk Auth forms */
 .cl-formButtonPrimary {
-  @apply bg-purple-1;
+  @apply bg-Slate;
 }
 
 .cl-formButtonPrimary:hover {
-  @apply bg-pink-1;
+  @apply bg-bleu;
 }
 
 .cl-footerActionLink {
-  @apply text-purple-1;
+  @apply text-dark-1 font-bold;
+
 }
 
 .cl-footerActionLink:hover {
-  @apply text-pink-1;
+  @apply text-bleu;
 }
 
 @layer utilities {
@@ -34,17 +35,17 @@
 
 /* Top Bar */
 .search-bar {
-  @apply w-full bg-dark-2 py-3 px-5 rounded-lg focus:outline-none text-light-1 text-small-semibold
+  @apply w-full bg-dark-1 py-3 px-5 rounded-lg focus:outline-none text-light-1 text-small-semibold
 }
 .create-post-btn {
-  @apply flex items-center gap-2 rounded-lg py-2.5 px-3 bg-gradient-to-l from-pink-1 to-purple-1 text-light-1 text-small-semibold max-md:hidden
+  @apply flex items-center gap-2 rounded-lg py-2.5 px-3 bg-gradient-to-l from-bleu to-sky-400 text-light-1 text-small-semibold max-md:hidden
 }
 
 .search-icon {
-  @apply absolute top-2 right-2 text-light-1 cursor-pointer hover:text-pink-1
+  @apply absolute top-2 right-2 text-light-1 cursor-pointer hover:text-bleu
 }
 
 /* Tabs */
 .tab {
-  @apply px-4 py-2 rounded-lg text-light-1 text-small-bold
+  @apply px-4 py-2 rounded-lg text-light-1 text-small-bold  hover:bg-bleu
 }
